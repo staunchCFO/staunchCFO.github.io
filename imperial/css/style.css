@@ -1,0 +1,178 @@
+.bg{
+    background: url(../img/hero-bg.jpg) top center no-repeat fixed;
+    background-size: cover;  
+}
+@media (max-width: 576px) {
+    .navbar-brand {
+      display: none;
+    }
+  }
+.bg-1{
+    background: rgba(0, 0, 0, 0.8);
+}
+.mute{
+    color: rgb(180, 178, 178);
+}
+.btn-custom{
+    background: #03C4EB;
+    border: 2px solid #03C4EB;
+    color: #fff;
+    font-weight: 500;
+    padding: 7px 20px;
+    letter-spacing: 2px;
+    margin-right: 7px;
+    margin-bottom: 7rem;
+}
+.btn-custom:hover{
+    background: none;
+    border: 2px solid #fff;
+    color: #fff;
+}
+.btn-custom1{
+    background: none;
+    border: 2px solid #fff;
+    color: #fff;
+    font-weight: 500;
+    padding: 7px 20px;
+    letter-spacing: 2px;
+    margin-right: 7px;
+    margin-bottom: 7rem;
+}
+.btn-custom1:hover{
+    background: #03C4EB;
+    border: 2px solid #03C4EB;
+    color: #fff;
+}
+.dark{
+    background: #000;
+}
+.logo{
+    width: 40%;
+    height: 20%;
+}
+.dropdown-item{
+    border-bottom: 2px solid rgb(184, 181, 181);
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background: #fff;
+    min-width: 160px;
+    box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    
+}
+.dropdown-content a:hover{
+    background: #ddd;
+    transition: all 2s ease;
+    
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.nav-link{
+    color: #fff;
+}
+.nav-link:hover{
+    color: #03C4EB;
+}
+.active{
+    color: #03C4EB;
+}
+.active:hover{
+    color: #03C4EB;
+}
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.underline{
+    width: 50px !important;
+    border-bottom: 3px solid #03C4EB;
+}
+.about{
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.about-text{
+    text-align: left;
+    font-size: 0.9rem;
+    color: rgb(77, 75, 75);
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.815);
+    z-index: 9999;
+    transition: all 1.5s ease;
+}
+#services {
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/services-bg.jpg") fixed center center;
+    background-size: cover;
+    padding: 80px 0 60px 0;
+}
+.round{
+    float: left;
+    background: #03C4EB;
+    padding: 16px;
+    border-radius: 50%;
+    transition: 0.5s;
+    border: 1px solid #03C4EB;
+}
+.my-code{
+    color: #fff;
+}
+.round:hover{
+    background: #fff;
+}
+.my-code:hover{
+    color: #03C4EB;
+}
+.text{
+    margin-left: 80px;
+    line-height: 24px;
+}
+.main{
+    margin-left: 80px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.subscribe{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/subscribe-bg.jpg") fixed center center;
+    background-size: cover;
+    padding: 80px 0 60px 0;
+}
+.shift{
+    margin-bottom: 5rem;
+}
+.bold{
+    font-weight: bold;
+}
+.lift{
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(61, 61, 61);
+}
+.lift1{
+    font-size: 0.8rem;
+}
+
+.move{
+    display: none;
+    position: absolute;
+    bottom: 5rem;
+    left: 5rem;
+}
+.card:hover .move{
+    display: block;
+    position: absolute;
+    bottom: 5rem;
+    left: 5rem;
+}
+.cards-img:hover{
+    filter: brightness(40%);
+    opacity: 0.2;
+}
