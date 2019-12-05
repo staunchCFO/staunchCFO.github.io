@@ -1,0 +1,115 @@
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24' /%3E%3C/svg%3E");
+
+}
+.navbar{
+    background: #000;
+   
+}
+.nav-link{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.bbc1{
+    background: #fff;
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-right: 3px;
+    text-align: center;
+    padding-left: 2px;
+}
+.bbc2{
+    background: #fff;
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-right: 3px;
+    text-align: center;
+    padding-left: 2px;
+}
+.bbc3{
+    background: #fff;
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-right: 3px;
+    text-align: center;
+    padding-left: 2px;
+}
+.border-right{
+    height: 100%;
+}
+.icon{
+    color: #fff;
+}
+.search{
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+.firstColumn{
+    color: #fff;
+    background-image: url(rooney.jpg);
+    padding-top: 14rem;
+   
+}
+
+.smallBox{
+    color: #fff;
+    background-image: url(abstract.jpg);
+    padding-top: 8rem;
+}
+.smallBox2{
+    color: #fff;
+    background-image: url(adidas.jpg);
+    padding-top: 8rem;
+
+}
+.smallBox3{
+    color: #fff;
+    background-image: url(apple.jpg);
+    padding-top: 8rem;
+    
+}
+.smallBox4{
+    color: #fff;
+    background-image: url(bentley.jpg);
+    padding-top: 8rem;
+    
+}
+.reel{
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-right: 3px;
+    text-align: center;
+    padding-left: 2px;
+}
+.foot{
+    background: rgb(124, 105, 105);
+}
+hr{
+    color: #fff !important;
+}
+.explore{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.flist{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    list-style: none;
+    padding-top: 1.5rem;
+    padding-left: 1rem;
+
+}
+.country{
+    font-size: 1rem;
+    font-weight: 400;
+    list-style: none;
+    text-align: left;
+}
