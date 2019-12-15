@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    background: url(intro-bg.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+}
+.body::before{
+    content: "";
+    background: rgba(6, 12, 34, 0.6);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+h1{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.body .main{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: 90px;
+    right: 0;
+    text-align: center;
+    padding-top: 150px;
+}
+.navbar{
+    background: rgba(6, 12, 34, 0.8);
+}
+a{
+    color: #fff;
+}
+a:hover{
+    color: #fff;
+}
+.botui-container{
+    background-color: inherit;
+}
+.botui-actions-text-input {
+    color: #007bff;
+}
+button.botui-actions-buttons-button {
+    background: #007bff;
+    color: #fff;
+}
+.botui-message-content.text {
+    background-color: grey;
+    color: #fff;
+}
+.botui-message-content.human {
+    background-color: rgb(92, 63, 63);
+    color: #fff;
+}
+/* Prelaoder */
+
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    overflow: hidden;
+    background: #fff;
+  }
+  
+  #preloader:before {
+    content: "";
+    position: fixed;
+    top: calc(50% - 30px);
+    left: calc(50% - 30px);
+    border: 6px solid #f2f2f2;
+    border-top: 6px solid #0078ff;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    -webkit-animation: animate-preloader 1s linear infinite;
+    animation: animate-preloader 1s linear infinite;
+  }
+  
+  @-webkit-keyframes animate-preloader {
+    0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes animate-preloader {
+    0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  /* Back to home button */
+
+.back-to-home {
+    position: fixed;
+    display: none;
+    background: #0078ff;
+    color: #fff;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    line-height: 1;
+    font-size: 16px;
+    border-radius: 50%;
+    right: 15px;
+    bottom: 15px;
+    transition: background 0.5s;
+    z-index: 11;
+  }
+  
+  .back-to-home i {
+    padding-top: 12px;
+    color: #fff;
+  }

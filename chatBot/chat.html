@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chat</title>
+    <link rel="stylesheet" href="build/botui.min.css">
+    <link rel="stylesheet" href="build/botui-theme-default.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-light" id="body">
+    <nav class="navbar">
+        <div class="container">
+        <a href="#" class="navbar-brand">Live ChatBot</a>
+        <a href="#" class="float-right btn btn-primary" id="toggle">Toggle Night Mode</a>
+        </div>
+    </nav>
+    <div class="container">
+        <div id="chat-bot-ui">
+            <bot-ui></bot-ui>
+        </div>
+    </div>
+    
+    <a href="index.html" class="back-to-home"><i class="fa fa-home"></i></a>
+    <div id="preloader"></div>
+    
+    <script src="jquery/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="vue.min.js"></script>
+    <script src="build/botui.min.js"></script>
+    <script src="chatbot.js"></script>
+</body>
+</html>
