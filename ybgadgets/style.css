@@ -510,11 +510,7 @@ body {
     color: #fff;
   }
   
-  .intro .
-   {
-    text-align: center;
-    position: absolute;
-  }
+  
   
   .intro .overlay-itro {
     background-color: rgba(0, 0, 0, 0.6);
@@ -970,6 +966,10 @@ body {
   .contact-mf {
     margin-top: 4rem;
   }
+  .content-product{
+    font-size: 2rem;
+    font-weight: 500%;
+  }
   
   /*======================================
   //--//-->   FOOTER
@@ -1280,14 +1280,14 @@ padding-top: 15rem;
 }
 .over{
     color: #fff;
-    text-transform: uppercase;
+    text-transform: none;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /* -----------About page ---------*/
 
 .about-content{
-    padding-top: 10rem;
+    padding-top: 5rem;
     text-align: left;
 }
 .about-mf .about-img img {
@@ -1427,7 +1427,7 @@ padding-top: 15rem;
 
 
 .aside{
-    padding-top: 10rem;
+    padding-top: 5rem;
     text-align: center;
 }
 .us{
@@ -1446,6 +1446,7 @@ padding-top: 15rem;
 .arrange{
   list-style-type: none;
 }
+
 
 /* ------------Contact ------------*/
 .contact-img{
@@ -1469,4 +1470,52 @@ padding-top: 15rem;
   color:#0078ff;
   text-align: center;
 
+}
+
+/**====Portfolio Wrapper ====*/
+.portfolio-item{
+  position: relative;
+}
+.portfolio-img-background{
+  height: 350px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.img-text-wrapper{
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.icon-wrapper{
+  margin-bottom: 50px;
+}
+.img-text-wrapper .subtitle{
+  transition: 1sec;
+  color: transparent;
+}
+.img-text-wrapper:hover .subtitle{
+  font-weight: 600;
+  color: #fff;
+}
+.img-text-wrapper .learn{
+  transition: 3sec;
+  color: transparent;
+}
+.img-text-wrapper:hover .learn{
+  font-weight: 600;
+  color: #fff;
+}
+.img-darken{
+  transition: 1sec;
+  filter: brightness(30%);
+}
+
+/*       Styling Our Icons       */
+.fa{
+  color: #fff;
 }
