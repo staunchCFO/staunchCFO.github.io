@@ -1,0 +1,872 @@
+
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  background: none repeat scroll 0 0 #2fa36d;
+}
+
+.spinner {
+  border: 1px solid transparent;
+  border-radius: 3px;
+  position: relative;
+}
+
+.spinner:before {
+  content: '';
+  box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 45px;
+  height: 45px;
+  margin-top: -10px;
+  margin-left: -10px;
+  border-radius: 50%;
+  border: 1px solid #575757;
+  border-top-color: #ffffff;
+  animation: spinner .9s linear infinite;
+}
+
+@-webkit-@keyframes spinner {
+  to {transform: rotate(360deg);}
+}
+
+@keyframes spinner {
+  to {transform: rotate(360deg);}
+}
+
+
+
+
+/* --------------------------------------------------------Navigation Bar---------------------------------------------------------*/
+
+.custom-nave{
+  border-top: .4rem solid rgb(11, 218, 155);
+  box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+  background: #fff;
+
+}
+.custom-toggler{
+  margin-left: 21.4rem;
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.navbar-brand{
+font-weight: bold;
+color: rgb(61, 73, 73);
+padding-top: 1rem;
+margin-left: 0;
+}
+.nav1{
+  padding-left: 4rem;
+  margin-top: .2rem;
+}
+.nav2{
+  padding-left: 9rem;
+}
+.nav1 li a{
+  color: rgb(61, 73, 73);
+  font-size: .92rem;
+  background: rgb(255, 255, 255);
+  padding: 1.6rem 1rem;
+}
+.nav1 li a:hover{
+  color: antiquewhite;
+  text-decoration: none;
+  background: rgb(11, 218, 155);
+  padding: 1.6rem 1rem;
+  transition: .5s;
+}
+.nav li a:focus{
+  color: antiquewhite;
+  text-decoration: none;
+  background: rgb(11, 218, 155) !important;
+  padding: .5rem 1rem;
+}
+.nav li a:active{
+  color: antiquewhite;
+  text-decoration: none;
+  background: rgb(11, 218, 155) !important;
+  padding: .5rem 1rem;
+}
+.nav2 li a{
+  color: rgb(61, 73, 73);
+  font-size: .92rem;
+  background: rgb(255, 255, 255);
+  padding: 1.6rem 1rem;
+}
+.nav2 li a:hover{
+  color: antiquewhite;
+  text-decoration: none;
+  background: rgb(11, 218, 155);
+  padding: 1.6rem 1rem;
+  transition: .5s;
+}
+.nav2 li i{
+  color: antiquewhite;
+  background: rgb(11, 218, 155);
+  border-radius: 50%;
+  padding: .5rem .6rem;
+}
+
+
+/*----------------------------------------------------------------Owl Slider---------------------------------------------------------------*/
+.home-slider .item1{
+  background-image: url(images/slider-image1.jpg);
+  background-position: center;
+}
+.home-slider .item2{
+  background-image: url(images/slider-image2.jpg);
+  background-position: center;
+}
+.home-slider .item3{
+  background-image: url(images/slider-image3.jpg);
+  background-position: center;
+}
+.home-slider .item{
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-size: cover;
+  height: 45rem;
+  
+
+}
+.home-slider .caption {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  background-color: rgba(20,20,20,0.2);
+  height: 100%;
+  color: #fff;
+  cursor: e-resize;
+}
+#home {
+  padding: 0;
+}
+#home h1 {
+  color: #ffffff;
+}
+#home h3 {
+  color: #f9f9f9;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0;
+  padding: 5px 0 40px 0;
+}
+.item .def-btn{
+  color: #fff;
+  border: .05rem solid #fff;
+  padding: .8rem 1.5rem;
+  border-radius: 2rem;
+  background: transparent;
+}
+.item .def-btn:hover{
+  color: black;
+  background: #fff;
+  transition: .9s;
+  transform: translate(10px,-20px);
+}
+.item h3 a{
+  color: yellow;
+}
+.item h3 a:hover{
+  color: #fff;
+  text-decoration: none;
+}
+
+/*-----------------------------------------------------------------Para1-------------------------------------------------------------*/
+.para1{
+  margin-top: 8rem;
+  border: .01rem solid rgb(231, 231, 235);
+  padding: 5rem 3rem;
+}
+.para1 span{
+  color: #fff;
+  background: #1f4abe;
+  padding: .6rem .8rem;
+  border-radius: 50%;
+  font-size: 2rem;
+}
+.para1 h3{
+  color: rgb(87, 87, 85);
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+.para1 p{
+  color: rgb(151, 151, 149);
+  font-size: .9rem;
+}
+
+
+/*--------------------------------------------------------------PARA 3 and FORM-PARA-----------------------------------------------------------*/
+.para3 , .paraform{
+  margin-top: 12rem;
+}
+.para3 h2{
+  font-size:  1.8rem;
+  font-weight: 900;
+  color: rgb(51, 51, 44);
+  margin-bottom: 3rem;
+}
+.para3 span{
+  color: #ffffff;
+  background: rgb(11, 218, 155);
+  padding: .4rem .8rem;
+  border-radius: 50%;
+  font-size: 1.6rem;
+  position: relative;
+  top: .8rem;
+  margin: .3rem 1.5rem 3rem 1rem;
+
+}
+.para3 h3{
+  font-size: 1.31rem;
+  font-weight: bold;
+  color: rgb(51, 51, 44);
+}
+.para3 figure{
+  display: inline-flex;
+}
+.para3 p{
+  color: rgb(121, 121, 108);
+  font-size: .9rem;
+}
+.paraform{
+  padding: 3rem 1rem;
+  background: #2b2626;
+  border-radius: 100%;
+  width: 450px;
+  height: 450px;
+  text-align: center;
+}
+.paraform h3{
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 1rem;
+  padding-top: 2.4rem;
+}
+.paraform p{
+  margin: .5rem 0 .5rem 0;
+  text-align: center;
+  color: #2b2626;
+  background: #ffffff;
+  border-radius: 1.6rem;
+  border: 0 solid white;
+  padding: .8rem 2rem .8rem 2rem;
+}
+.paraform .custom-btn:hover{
+  background: rgb(49, 27, 148);
+  color: #fff;
+  transition: .6s;
+}
+.paraform .form-control{
+  background: transparent;
+  border: 0;
+  border-bottom: .01rem solid rgb(63, 62, 62);
+  border-radius: 0;
+  box-shadow: none;
+  height: 45px;
+  margin: 10px 0;
+}
+.paraform form{
+  margin: 1rem 3rem 1rem 3rem;
+}
+
+/*------------------------------------------------------------------------Team--------------------------------------------------------------*/
+.team-title{
+  padding-top: 4rem;
+  text-align: center;
+}
+#team{
+  background: rgb(232, 239, 241);
+  margin-top: 3rem;
+}
+.team-title h3{
+  font-weight: bold;
+  color:  rgb(63, 62, 62);
+}
+.team-title p{
+  color: #868282;
+  font-size: 1.2rem;
+}
+.team-thumb {
+  background: #ffffff;
+  position: relative;
+  overflow: hidden;
+  text-align: left;
+}
+.team-thumb img{
+  width: 100%;
+}
+.team-head{
+  padding-left: 1.5rem;
+  padding-top: 1rem;
+  background: #ffffff;
+  padding-bottom: .1rem;
+}
+.team-head h3{
+  color:  rgb(63, 62, 62);
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.team-head p{
+  color:  rgb(63, 62, 62);
+}
+.team-icon{
+  background: #ffffff;
+  margin-top: .1rem;
+  text-align: left;
+  padding: .8rem 0 .8rem 1.4rem;
+  text-decoration: none;
+}
+.team-icon li{
+  display: inline;
+  padding-right: 1.6rem;
+}
+.team-icon a{
+  color: rgb(63, 62, 62);
+  border-radius: 50%;
+  padding: .3rem;
+  background: rgb(255, 255, 255);
+}
+.team-icon a:hover{
+  color: #ffffff;
+  background: rgb(11, 218, 155);
+  transition: 1s;
+  border-radius: 50%;
+  padding: .3rem;
+  position: relative;
+  text-decoration: none;
+}
+
+/*------------------------------------------------------------Popular Courses------------------------------------------------------------*/
+.popular{
+  margin-top: 2rem;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+.popular h3{
+  font-weight: bold;
+  color:  rgb(63, 62, 62);
+}
+.popular p{
+  color:  rgb(105, 104, 104);
+  font-size: 1.1rem;
+}
+.thumb .course-top{
+  position: relative;
+}
+.course-img{
+  position: relative;
+}
+.course-top .course-time{
+  position: absolute;
+  bottom: 0;
+  padding-left: 1rem;
+  padding-bottom: .5rem;
+  color: #fff;
+  font-weight: bold;
+  background: linear-gradient( rgba(255, 0, 0, 0), rgba(0, 0, 0, 0.6));
+  font-size: .9rem;  
+}
+.course-body{
+  padding: 2rem 0 1rem 1rem;
+}
+.course-body h3 a{
+  font-size: 1.3rem;
+  color:  rgb(63, 62, 62);
+  font-weight: bold;
+  text-decoration: none;
+}
+.course-body h3 a:hover{
+  transition: .8s;
+  color: rgb(11, 218, 155);
+}
+.course-body  p{
+  font-size: .88rem;
+  color:  rgb(105, 104, 104);
+}
+.course-base{
+  padding: 1rem 1rem;
+}
+.course-author,
+  .course-author span {
+    display: inline-block;
+    vertical-align: middle;
+  }
+.course-author img{
+  display: inline-block !important;
+  height: 3rem;
+  width: 3rem !important;
+  border-radius: 3rem;
+  margin-right: 1rem;
+}
+.course-amount a{
+  float: right;
+  position: relative;
+  bottom: 2.2rem;
+}
+.course-amount a span{
+  text-decoration: none;
+  color: #ffffff;
+  background: #29ca8e;
+padding: .4rem 1rem;
+border-radius: .3rem;
+}
+.course-base .free span{
+  background: #3f51b5;
+}
+.owl-theme .owl-nav [class*=owl-] {
+  border-radius: 2rem;
+  font-size: 16px;
+  width: 2.2rem;;
+  height: 2rem;
+  line-height: 30px;
+  text-align: center;
+  padding: 0;
+  background: #29ca8e;
+}
+
+/*------------------------------------------------------------Reviews---------------------------------------------------------------------*/
+#reviews{
+  background-image: linear-gradient(to top , #fff , #f00)
+}
+#reviews .review-thumb{
+  background: #fff;
+  padding: 0 .5rem 0 .5rem;
+}
+.review{
+  margin-top: 2rem;
+  text-align: center;
+  margin-bottom: 6rem;
+  
+}
+.review h3{
+  font-weight: bold;
+  color:  rgb(63, 62, 62);
+}
+.review p{
+  color:  rgb(105, 104, 104);
+  font-size: 1.2rem;
+}
+
+.review-head img{
+  border-radius: 50px;
+  width: 60px !important;
+  height: 60px;
+  position: relative;
+  margin-bottom: .5rem;
+}
+
+.review-author h5{
+  margin-bottom: 0;
+}
+.review-author{
+  position: absolute;
+  float: left;
+  top: .5rem;
+  left: 6rem;
+  
+}
+.review-body p{
+  clear: both;
+  position: relative;
+}
+.review-star .fa{
+  color: #3f51b5;
+  margin-bottom: 8rem;
+}
+
+/*------------------------------------------------------------------Contact-----------------------------------------------------------------*/
+#contact {
+margin-top: 8rem;
+padding-top: 5rem;
+background: #3f51b5;
+padding-bottom: 5rem;
+}
+#contact .head{
+  color: #fff;
+}
+.head h3 {
+  font-size: 1.9rem;
+  font-weight: bold;
+}
+.head p{
+  font-size: 1.2rem;
+  margin-bottom: 2.5rem;
+}
+.contact-form .form-control{
+  height: 3rem;
+  margin-bottom: 1rem;
+  font-size: .85rem;
+}
+.contact-form .text-area{
+ height: 8rem;
+}
+.contact-form .custom-btn{
+  color: #5f5c5c;
+  background: #ffffff;
+  padding: 1rem 5rem;
+  border: 0;
+  border-radius: 3rem;
+}
+.contact-form .custom-btn:hover{
+  background: #3f51b5;
+  color: #ffffff;
+  transition: .8s;
+  border: .05rem solid white;
+  transform: rotate(360deg)
+}
+.contact-image img{
+  width: 102%;
+}
+
+/*--------------------------------------------------------------------Footer----------------------------------------------------------------*/
+#foot{
+  padding-top: 6rem;
+  background: #2b2626;
+}
+.footer{
+  padding-right: 8rem;
+  padding-bottom: 4rem;
+}
+.footer h3{
+  color: #ffffff;
+  font-size: 1.3rem;
+}
+.footer p , .footer address a{
+  color: rgb(158, 152, 152);
+  font-size : .9rem;
+  text-decoration: none;
+}
+.footer .social-links ul li {
+  display: inline;
+}
+.footer .foot-link ul li{
+  display: inline;
+}
+.footer .foot-link ul {
+  padding-left: 0;
+  margin-left: 0;
+}
+.footer .foot-link ul li a{
+  color: rgb(158, 152, 152);
+  text-decoration: none;
+}
+.footer .social-links ul , .footer .foot-link ul li{
+  padding-left: 0;
+  padding-top: 2rem;
+}
+.footer .social-links ul li a{
+  padding : .3rem .5rem;
+  color: #29ca8e;
+  margin-right: 1rem;
+} 
+.footer .foot-link ul li a{
+  font-size: .9rem;
+  margin-right: .5rem;
+  padding-right: 1rem;
+}
+.footer .social-links ul li a:hover{
+  color: #ffffff;
+  background: #29ca8e;
+  padding : .3rem .5rem;
+  border-radius: 50%;
+}
+.footer .form-control{
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  margin-bottom: 2rem;
+  border-bottom: .05rem solid rgb(158, 152, 152);
+  border-radius: 0;
+}
+.footer .custom-btn2{
+  color: #ffffff;
+  background: transparent;
+  padding: 1rem 3rem;
+  border-radius: 3rem;
+  border: .05rem solid white;
+}
+.footer .custom-btn2:hover{
+  color: #ffffff;
+  background: #29ca8e;
+  border: .05rem solid #29ca8e;
+}
+
+
+/*----------------------------------------------------------RESPONSIVE DESIGN--------------------------------------------------------------*/
+
+
+@media only screen and (max-width: 480px) {
+  .paraform {
+    border-radius: 0;
+    padding: 2em;
+    max-width: 100%;
+    max-height: 100%;
+    width: inherit;
+    height: inherit;
+  }
+  
+}
+
+@media only screen and (min-width: 650px) {
+.custom-toggler{
+  margin-left: 26.5rem;
+  }
+}
+
+
+@media only screen and (max-width: 767px) {
+  .container{
+    margin: 0rem;
+   
+  }
+  .nav1{
+    padding-left: 0rem;
+    width: 100%;
+  }
+  .nav2{
+    padding-left: 0rem;
+    margin-bottom: 3rem;
+    margin-top : 3rem;
+  }
+  .nav1 li a{
+    color: rgb(61, 73, 73);
+    margin-top: 8rem;
+      font-size: .95rem;
+      padding: .1rem 25rem .9rem 16.9rem; 
+      
+  }
+  .nav1 li  .long{
+    color: rgb(61, 73, 73);
+    margin-top: 8rem;
+      font-size: .95rem;
+      padding-right: 52%;
+      padding-left: 35%;
+      
+  }
+  .nav1 li a:hover{
+    color: antiquewhite;
+    text-decoration: none;
+    background: rgb(11, 218, 155);
+    padding: .1rem 25rem .9rem 16.9rem; 
+  }
+
+  .nav1 li  .long:hover{
+    color: antiquewhite;
+    text-decoration: none;
+    background: rgb(11, 218, 155);
+    /*padding: .1rem 11rem .9rem 15rem;*/
+    padding-right: 52%;
+    padding-left: 35%;
+  }
+  .nav2 li a{
+    color: rgb(61, 73, 73);
+    font-size: .95rem;
+    margin-left: 13rem;
+    padding: 1.5rem 2rem 1.5rem 1rem;
+  }
+  .nav2 li a:hover{
+    color: antiquewhite;
+    text-decoration: none;
+    background: rgb(11, 218, 155);
+    margin-left: 13rem;
+    padding: 1.5rem 2rem 1.5rem 1rem;
+  }
+ 
+  
+}
+@media only screen and (min-width: 768px) {
+  .nav1{
+    padding-left: 2rem;
+  }
+  .nav2{
+    padding-left: 2.85rem;
+  }
+  .nav1 li a{
+    color: rgb(61, 73, 73);
+    padding-right: .5rem;
+    font-size: .95rem;
+    padding: 1.6rem .5rem;
+  }
+  .nav1 li a:hover{
+    color: antiquewhite;
+    text-decoration: none;
+    background: rgb(11, 218, 155);
+    padding: 1.6rem .5rem;
+    
+  }
+  .nav2 li a{
+    color: rgb(61, 73, 73);
+    font-size: .95rem;
+    padding: 1.6rem 0;
+  }
+  .nav2 li a:hover{
+    color: antiquewhite;
+    text-decoration: none;
+    background: rgb(11, 218, 155);
+    padding: 1.6rem 0;
+  }
+  .custom-nave{
+    border-top: .4rem solid rgb(218, 87, 11);
+  }
+  .home-slider .col-md-6 {
+    padding-left: 0;
+  }
+  
+}
+
+
+@media only screen and (max-width: 992px) {
+  .paraform {
+    display: block;
+    margin: 0 auto;
+  }
+ 
+}
+
+
+
+
+@media only screen and (min-width: 992px) {
+  .nav1{
+    padding-left: 4rem;
+  }
+  .nav2{
+    padding-left: 8rem;
+  }
+  .nav1 li a{
+    color: rgb(61, 73, 73);
+    padding-right: 2rem;
+    font-size: .95rem;
+    padding: 1.6rem 1rem;
+  }
+  .nav1 li a:hover{
+    color: antiquewhite;
+    text-decoration: none;
+    background: rgb(11, 218, 155);
+    padding: 1.6rem 1rem;
+    
+  }
+  .nav2 li a{
+    color: rgb(61, 73, 73);
+    font-size: .95rem;
+  }
+  .custom-nave{
+    border-top: .4rem solid rgb(218, 135, 11);
+  }
+  .contact-form .custom-btn{
+    width: 30%;
+    padding-left: 1.8rem;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .team-thumb{
+    margin-bottom: 50px;
+  }
+  .paraform {
+    display: block;
+    margin: 0 auto;
+    
+  }
+}
+
+@media only screen and (min-width: 1092px) {
+  .nav1{
+    padding-left: 6rem;
+  }
+  .nav2{
+    padding-left: 5rem;
+  }
+  .nav1 li a{
+    color: rgb(61, 73, 73);
+    padding-right: 1.2rem;
+    padding-left: 1.2rem;
+    font-size: .95rem;
+  }
+  .nav1 li a:hover{
+    color: antiquewhite;
+    text-decoration: none;
+    background: rgb(11, 218, 155);
+    padding: 1.6rem 1.2rem;
+    
+  }
+  .nav2 li a{
+    color: rgb(61, 73, 73);
+    font-size: .95rem;
+  }
+  .custom-nave{
+    border-top: .4rem solid rgb(70, 218, 11);
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .nav1{
+    padding-left: 8rem;
+  }
+  .nav2{
+    padding-left: 16rem;
+  }
+  .nav1 li a{
+    color: rgb(61, 73, 73);
+    padding-right: 1rem;
+    padding-left: 1rem;
+    font-size: .95rem;
+  }
+  .nav1 li a:hover{
+    color: antiquewhite;
+    text-decoration: none;
+    background: rgb(11, 218, 155);
+    padding: 1.6rem 1rem;
+    
+  }
+  .nav2 li a{
+    color: rgb(61, 73, 73);
+    font-size: .95rem;
+  }
+  .custom-nave{
+    border-top: .4rem solid rgb(11, 49, 218);
+  }
+}
+@media only screen and (min-width: 1350px) {
+  .nav1{
+    padding-left: 8rem;
+  }
+  .nav2{
+    padding-left: 17rem;
+  }
+  .nav1 li a{
+    color: rgb(61, 73, 73);
+    padding-right: 1rem;
+    padding-left: 1rem;
+    font-size: .95rem;
+  }
+  .nav1 li a:hover{
+    color: antiquewhite;
+    text-decoration: none;
+    background: rgb(11, 218, 155);
+    padding: 1.6rem 1rem;
+    
+  }
+  .nav2 li a{
+    color: rgb(61, 73, 73);
+    font-size: .95rem;
+  }
+  .custom-nave{
+    border-top: .4rem solid rgb(11, 218, 155);
+  }
+}
+
