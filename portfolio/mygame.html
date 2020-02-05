@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> BattleFire Game</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device=width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="plugins/fontawesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="mygame.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container">
+                <a href="mygame.html" class="navbar-brand an1"><i class="fa fa-gamepad pad"></i> BattleFire Game </a>
+                <button type="button" class="navbar-toggler collapsed custom-toggler" data-toggle="collapse" data-target="#menu"
+                    arials-control="menu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse" id="menu">
+                    <ul class="navbar-nav ml-auto text-right">
+                        <li class="nav-item mr-3"><a class="nav-link active an" href="">Profile</a></li>
+                        <li class="nav-item mr-3"><a class="nav-link an" href="">Settings</a></li>
+                        <li class="nav-item mr-3"><a class="nav-link an" href="">Level</a></li>
+                        <li class="nav-item mr-3"><a class="nav-link an" href="">End game</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <main>
+            <div class="container">
+                <div class="col-md-12 text-center mt-4">
+                    <h4> Welcome To BattleFire Game </h4>
+                </div>
+                <form>
+                   
+                    <div class="col-md- text-center mt-3">
+                        <div class="wrap text-center">
+                            <input type="text" placeholder="Enter a number between 0 - 6" id="sticker" class="form-control"/>
+                            <input type="button" value="Fire" id="stick" class="btn btn-danger" />
+                            <p id="gameMessage"></p>
+                        </div>
+                    </div>
+                    
+                </form>
+            </div>
+            <div class="container">
+                <div class="row">
+                        <div>
+                                <button class="btn btn-default score btn-lg" type="button">
+                                    Score <span class="badge showScore">25</span>
+                                  </button>
+                        </div>
+                            
+                        <div>
+                                <button class="btn btn-default btn-lg but"><span id="time">02:00</span> </button>
+                        </div>
+                            
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="progress level">
+                                    <div class="progress-bar progress-bar-success progress-bar-striped 
+                                        active" style="width:50%;">
+                                        Level 3
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </main>
+
+        <script src="js/jquery.min.js"></script>
+        <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+    </body>
+</html>
